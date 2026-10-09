@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/bdi-exchange-rate.svg)](https://github.com/AllRates-Today/bdi-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/bdi-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![EUR/USD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbdi%3Fsource%3DEUR%26target%3DUSD&query=%24.rate&label=EUR%2FUSD%20published%20by%20Banca%20d'Italia&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bdi/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbdi%3Fsource%3DEUR%26target%3DUSD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bdi/)
 
 **Official Banca d'Italia (Italy) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Banca d'Italia itself prints, every business day.**
 
@@ -32,6 +34,79 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Banca d'Italia table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Banca d'Italia — 150 rates, first 60 shown. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| EUR | AED | reference | 4.1081 |
+| EUR | AFN | reference | 72.5569 |
+| EUR | ALL | reference | 91.68 |
+| EUR | AMD | reference | 405.45 |
+| EUR | AOA | reference | 1030.028 |
+| EUR | ARS | reference | 1697.889 |
+| EUR | AUD | reference | 1.611 |
+| EUR | AWG | reference | 2.0023 |
+| EUR | AZN | reference | 1.9016 |
+| EUR | BAM | reference | 1.95583 |
+| EUR | BBD | reference | 2.2372 |
+| EUR | BDT | reference | 137.6717 |
+| EUR | BHD | reference | 0.421 |
+| EUR | BIF | reference | 3367.277 |
+| EUR | BMD | reference | 1.1186 |
+| EUR | BND | reference | 1.434 |
+| EUR | BOB | reference | 13.2554 |
+| EUR | BRL | reference | 5.6118 |
+| EUR | BSD | reference | 1.1186 |
+| EUR | BTN | reference | 108.2635 |
+| EUR | BWP | reference | 15.5577 |
+| EUR | BZD | reference | 2.2372 |
+| EUR | CAD | reference | 1.5953 |
+| EUR | CDF | reference | 2533.629 |
+| EUR | CHF | reference | 0.9326 |
+| EUR | CLP | reference | 1095.02 |
+| EUR | CNY | reference | 7.4972 |
+| EUR | COP | reference | 3621.58 |
+| EUR | CRC | reference | 509.9026 |
+| EUR | CUP | reference | 26.8464 |
+| EUR | CVE | reference | 110.265 |
+| EUR | CZK | reference | 24.403 |
+| EUR | DJF | reference | 198.799 |
+| EUR | DKK | reference | 7.4739 |
+| EUR | DOP | reference | 68.6084 |
+| EUR | DZD | reference | 150.4867 |
+| EUR | EGP | reference | 58.5945 |
+| EUR | ERN | reference | 17.2041 |
+| EUR | ETB | reference | 181.699 |
+| EUR | FJD | reference | 2.5331 |
+| EUR | FKP | reference | 0.84698 |
+| EUR | GBP | reference | 0.84698 |
+| EUR | GEL | reference | 2.905 |
+| EUR | GHS | reference | 13.1946 |
+| EUR | GIP | reference | 0.84698 |
+| EUR | GMD | reference | 80.79 |
+| EUR | GNF | reference | 9839.557 |
+| EUR | GTQ | reference | 8.5491 |
+| EUR | GYD | reference | 234.0335 |
+| EUR | HKD | reference | 8.7783 |
+| EUR | HNL | reference | 30.068 |
+| EUR | HTG | reference | 145.9887 |
+| EUR | HUF | reference | 366.25 |
+| EUR | IDR | reference | 20045.31 |
+| EUR | ILS | reference | 3.4423 |
+| EUR | INR | reference | 108.2635 |
+| EUR | IQD | reference | 1599.598 |
+| EUR | ISK | reference | 137 |
+| EUR | JMD | reference | 177.6175 |
+| EUR | JOD | reference | 0.7931 |
+
+[Full table on the Banca d'Italia rates page](https://allratestoday.com/central-bank-rates-api/bdi/) · Source: [Official rates published by BDI, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bdi/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
