@@ -160,10 +160,10 @@ const pair = await getRate('USD', 'EUR', { apiKey: 'art_live_...' });
 {
   bank: 'bdi',
   name: 'Banca d\'Italia',
-  rate_date: '2026-10-08',   // Banca d'Italia's own publication date
+  rate_date: '2026-10-12',   // Banca d'Italia's own publication date
   source: 'USD',
   target: 'EUR',
-  rate: 0.893975,
+  rate: 0.894374,
   rate_type: 'reference',
   derived: true,
   method: 'inverse',  // computed from the published EUR/USD print
@@ -188,9 +188,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bdi',
   name: 'Banca d\'Italia',
-  rate_date: '2026-10-08',
+  rate_date: '2026-10-12',
   rates: [
-    { "base": "EUR", "quote": "USD", "type": "reference", "value": 1.1186 },
+    { "base": "EUR", "quote": "USD", "type": "reference", "value": 1.1181 },
     // … the rest of the published table (150 currencies vs EUR)
   ],
   disclaimer: '…'
@@ -230,7 +230,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bdi-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'EUR', from: '2026-01-01', to: '2026-10-08' },
+  { source: 'USD', target: 'EUR', from: '2026-01-01', to: '2026-10-12' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -243,11 +243,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'EUR',
   from: '2026-01-01',
-  to: '2026-10-08',
+  to: '2026-10-12',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-08', rate: 0.893975, rate_type: 'reference', derived: true, method: 'inverse' },
+    { date: '2026-10-12', rate: 0.894374, rate_type: 'reference', derived: true, method: 'inverse' },
     // …
   ],
   disclaimer: '…'
@@ -297,6 +297,7 @@ curl "https://allratestoday.com/api/v1/central-bank/bdi/latest?format=xml&api_ke
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('bdi')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate bdi ...` command
+- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
