@@ -1,13 +1,15 @@
 {
   "name": "bdi-exchange-rate",
-  "version": "1.3.9",
+  "version": "1.3.10",
   "description": "Official Banca d'Italia (Italy) daily exchange rates — 150 currencies vs EUR, history since 2016. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bdi",
+    "banca-ditalia",
     "banca",
-    "d'italia",
+    "ditalia",
     "exchange-rate",
     "exchange-rates",
+    "eur-exchange-rate",
     "currency",
     "forex",
     "fx",
