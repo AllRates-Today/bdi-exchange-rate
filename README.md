@@ -42,70 +42,70 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by Banca d'Italia — 150 rates, first 60 shown. Updated 2026-10-15.
+Published **2026-10-16** by Banca d'Italia — 150 rates, first 60 shown. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| EUR | AED | reference | 4.1161 |
-| EUR | AFN | reference | 72.7707 |
-| EUR | ALL | reference | 91.3 |
-| EUR | AMD | reference | 405.75 |
-| EUR | AOA | reference | 1032.357 |
-| EUR | ARS | reference | 1696.0794 |
-| EUR | AUD | reference | 1.6218 |
-| EUR | AWG | reference | 2.0062 |
-| EUR | AZN | reference | 1.9054 |
+| EUR | AED | reference | 4.1327 |
+| EUR | AFN | reference | 73.0629 |
+| EUR | ALL | reference | 91.49 |
+| EUR | AMD | reference | 407.31 |
+| EUR | AOA | reference | 1035.391 |
+| EUR | ARS | reference | 1703.2027 |
+| EUR | AUD | reference | 1.6171 |
+| EUR | AWG | reference | 2.0143 |
+| EUR | AZN | reference | 1.913 |
 | EUR | BAM | reference | 1.95583 |
-| EUR | BBD | reference | 2.2416 |
-| EUR | BDT | reference | 138.3572 |
-| EUR | BHD | reference | 0.421 |
-| EUR | BIF | reference | 3374.807 |
-| EUR | BMD | reference | 1.1208 |
-| EUR | BND | reference | 1.4379 |
-| EUR | BOB | reference | 13.0909 |
-| EUR | BRL | reference | 5.6679 |
-| EUR | BSD | reference | 1.1208 |
-| EUR | BTN | reference | 106.5408 |
-| EUR | BWP | reference | 15.5451 |
-| EUR | BZD | reference | 2.2416 |
-| EUR | CAD | reference | 1.5923 |
-| EUR | CDF | reference | 2542.277 |
-| EUR | CHF | reference | 0.9305 |
-| EUR | CLP | reference | 1104.48 |
-| EUR | CNY | reference | 7.4993 |
-| EUR | COP | reference | 3572.71 |
-| EUR | CRC | reference | 508.1147 |
-| EUR | CUP | reference | 26.8992 |
+| EUR | BBD | reference | 2.2506 |
+| EUR | BDT | reference | 138.9127 |
+| EUR | BHD | reference | 0.423 |
+| EUR | BIF | reference | 3388.582 |
+| EUR | BMD | reference | 1.1253 |
+| EUR | BND | reference | 1.4395 |
+| EUR | BOB | reference | 13.1435 |
+| EUR | BRL | reference | 5.7197 |
+| EUR | BSD | reference | 1.1253 |
+| EUR | BTN | reference | 106.864 |
+| EUR | BWP | reference | 15.6946 |
+| EUR | BZD | reference | 2.2506 |
+| EUR | CAD | reference | 1.5935 |
+| EUR | CDF | reference | 2549.3672 |
+| EUR | CHF | reference | 0.9272 |
+| EUR | CLP | reference | 1104.34 |
+| EUR | CNY | reference | 7.524 |
+| EUR | COP | reference | 3568.9 |
+| EUR | CRC | reference | 509.4796 |
+| EUR | CUP | reference | 27.0072 |
 | EUR | CVE | reference | 110.265 |
-| EUR | CZK | reference | 24.353 |
-| EUR | DJF | reference | 199.19 |
-| EUR | DKK | reference | 7.475 |
-| EUR | DOP | reference | 68.832 |
-| EUR | DZD | reference | 150.8573 |
-| EUR | EGP | reference | 59.6068 |
-| EUR | ERN | reference | 17.2379 |
-| EUR | ETB | reference | 182.1315 |
-| EUR | FJD | reference | 2.538 |
-| EUR | FKP | reference | 0.8461 |
-| EUR | GBP | reference | 0.8461 |
-| EUR | GEL | reference | 2.9094 |
-| EUR | GHS | reference | 13.0596 |
-| EUR | GIP | reference | 0.8461 |
-| EUR | GMD | reference | 82.06 |
-| EUR | GNF | reference | 9869.5969 |
-| EUR | GTQ | reference | 8.5634 |
-| EUR | GYD | reference | 234.4938 |
-| EUR | HKD | reference | 8.7953 |
-| EUR | HNL | reference | 30.1394 |
-| EUR | HTG | reference | 146.4437 |
-| EUR | HUF | reference | 363.6 |
-| EUR | IDR | reference | 20112.25 |
-| EUR | ILS | reference | 3.4769 |
-| EUR | INR | reference | 106.5408 |
-| EUR | IQD | reference | 1698.012 |
-| EUR | ISK | reference | 136.4 |
-| EUR | JMD | reference | 178.142 |
-| EUR | JOD | reference | 0.7946 |
+| EUR | CZK | reference | 24.323 |
+| EUR | DJF | reference | 199.989 |
+| EUR | DKK | reference | 7.4748 |
+| EUR | DOP | reference | 69.2226 |
+| EUR | DZD | reference | 151.3578 |
+| EUR | EGP | reference | 60.1467 |
+| EUR | ERN | reference | 17.3071 |
+| EUR | ETB | reference | 182.8636 |
+| EUR | FJD | reference | 2.5517 |
+| EUR | FKP | reference | 0.84385 |
+| EUR | GBP | reference | 0.84385 |
+| EUR | GEL | reference | 2.9184 |
+| EUR | GHS | reference | 13.1002 |
+| EUR | GIP | reference | 0.84385 |
+| EUR | GMD | reference | 81.53 |
+| EUR | GNF | reference | 9910.5442 |
+| EUR | GTQ | reference | 8.5979 |
+| EUR | GYD | reference | 235.4353 |
+| EUR | HKD | reference | 8.8316 |
+| EUR | HNL | reference | 30.2629 |
+| EUR | HTG | reference | 146.9129 |
+| EUR | HUF | reference | 363.08 |
+| EUR | IDR | reference | 20290.28 |
+| EUR | ILS | reference | 3.4822 |
+| EUR | INR | reference | 106.864 |
+| EUR | IQD | reference | 1705.955 |
+| EUR | ISK | reference | 136.2 |
+| EUR | JMD | reference | 178.4755 |
+| EUR | JOD | reference | 0.7978 |
 
 [Full table on the Banca d'Italia rates page](https://allratestoday.com/central-bank-rates-api/bdi/) · Source: [Official rates published by BDI, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bdi/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -299,7 +299,7 @@ curl "https://allratestoday.com/api/v1/central-bank/bdi/latest?format=xml&api_ke
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('bdi')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate bdi ...` command
-- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
+- Evaluating? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days that covers the free-plan methods (latest table, pairs); dated tables and history need a [paid plan](https://allratestoday.com/pricing/). The MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
