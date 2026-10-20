@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number Banca d'Italia itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest Banca d'Italia table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,79 +47,75 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Banca d'Italia — 150 rates, first 60 shown. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by Banca d'Italia — 150 rates, first 60 shown. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| EUR | AED | reference | 4.1224 |
-| EUR | AFN | reference | 72.854 |
-| EUR | ALL | reference | 91.15 |
-| EUR | AMD | reference | 406.37 |
-| EUR | AOA | reference | 1030.866 |
-| EUR | ARS | reference | 1701.636 |
-| EUR | AUD | reference | 1.6068 |
-| EUR | AWG | reference | 2.0093 |
-| EUR | AZN | reference | 1.9083 |
+| EUR | AED | reference | 4.1187 |
+| EUR | AFN | reference | 72.819 |
+| EUR | ALL | reference | 90.86 |
+| EUR | AMD | reference | 405.78 |
+| EUR | AOA | reference | 1032.731 |
+| EUR | ARS | reference | 1709.4752 |
+| EUR | AUD | reference | 1.6056 |
+| EUR | AWG | reference | 2.0075 |
+| EUR | AZN | reference | 1.9066 |
 | EUR | BAM | reference | 1.95583 |
-| EUR | BBD | reference | 2.245 |
-| EUR | BDT | reference | 138.8084 |
+| EUR | BBD | reference | 2.243 |
+| EUR | BDT | reference | 138.6847 |
 | EUR | BHD | reference | 0.422 |
-| EUR | BIF | reference | 3380.375 |
-| EUR | BMD | reference | 1.1225 |
-| EUR | BND | reference | 1.4357 |
-| EUR | BOB | reference | 13.122 |
-| EUR | BRL | reference | 5.6633 |
-| EUR | BSD | reference | 1.1225 |
-| EUR | BTN | reference | 106.559 |
-| EUR | BWP | reference | 15.5903 |
-| EUR | BZD | reference | 2.245 |
-| EUR | CAD | reference | 1.5798 |
-| EUR | CDF | reference | 2539.4542 |
-| EUR | CHF | reference | 0.9261 |
-| EUR | CLP | reference | 1104.78 |
-| EUR | CNY | reference | 7.4991 |
-| EUR | COP | reference | 3562.7 |
-| EUR | CRC | reference | 507.9425 |
-| EUR | CUP | reference | 26.94 |
+| EUR | BIF | reference | 3377.588 |
+| EUR | BMD | reference | 1.1215 |
+| EUR | BND | reference | 1.4338 |
+| EUR | BOB | reference | 13.1216 |
+| EUR | BRL | reference | 5.6339 |
+| EUR | BSD | reference | 1.1215 |
+| EUR | BTN | reference | 106.459 |
+| EUR | BWP | reference | 15.5548 |
+| EUR | BZD | reference | 2.243 |
+| EUR | CAD | reference | 1.5758 |
+| EUR | CDF | reference | 2540.1975 |
+| EUR | CHF | reference | 0.9237 |
+| EUR | CLP | reference | 1100.33 |
+| EUR | CNY | reference | 7.4894 |
+| EUR | COP | reference | 3541.06 |
+| EUR | CRC | reference | 507.6358 |
+| EUR | CUP | reference | 26.916 |
 | EUR | CVE | reference | 110.265 |
-| EUR | CZK | reference | 24.343 |
-| EUR | DJF | reference | 199.492 |
-| EUR | DKK | reference | 7.4747 |
-| EUR | DOP | reference | 69.1444 |
-| EUR | DZD | reference | 151.0187 |
-| EUR | EGP | reference | 60.1374 |
-| EUR | ERN | reference | 17.2641 |
-| EUR | ETB | reference | 182.4748 |
-| EUR | FJD | reference | 2.5362 |
-| EUR | FKP | reference | 0.84205 |
-| EUR | GBP | reference | 0.84205 |
-| EUR | GEL | reference | 2.9146 |
-| EUR | GHS | reference | 13.0869 |
-| EUR | GIP | reference | 0.84205 |
-| EUR | GMD | reference | 81.31 |
-| EUR | GNF | reference | 9885.0262 |
-| EUR | GTQ | reference | 8.5799 |
-| EUR | GYD | reference | 234.8495 |
-| EUR | HKD | reference | 8.8097 |
-| EUR | HNL | reference | 30.1842 |
-| EUR | HTG | reference | 146.604 |
-| EUR | HUF | reference | 363.4 |
-| EUR | IDR | reference | 20253.16 |
-| EUR | ILS | reference | 3.489 |
-| EUR | INR | reference | 106.559 |
-| EUR | IQD | reference | 1701.71 |
-| EUR | ISK | reference | 136.4 |
-| EUR | JMD | reference | 177.7837 |
-| EUR | JOD | reference | 0.7959 |
+| EUR | CZK | reference | 24.329 |
+| EUR | DJF | reference | 199.314 |
+| EUR | DKK | reference | 7.4746 |
+| EUR | DOP | reference | 68.8899 |
+| EUR | DZD | reference | 150.8662 |
+| EUR | EGP | reference | 60.6421 |
+| EUR | ERN | reference | 17.2487 |
+| EUR | ETB | reference | 182.2421 |
+| EUR | FJD | reference | 2.5322 |
+| EUR | FKP | reference | 0.84028 |
+| EUR | GBP | reference | 0.84028 |
+| EUR | GEL | reference | 2.9121 |
+| EUR | GHS | reference | 13.0787 |
+| EUR | GIP | reference | 0.84028 |
+| EUR | GMD | reference | 81.08 |
+| EUR | GNF | reference | 9879.1833 |
+| EUR | GTQ | reference | 8.5706 |
+| EUR | GYD | reference | 234.6402 |
+| EUR | HKD | reference | 8.8023 |
+| EUR | HNL | reference | 30.1533 |
+| EUR | HTG | reference | 146.5627 |
+| EUR | HUF | reference | 364.68 |
+| EUR | IDR | reference | 20170.57 |
+| EUR | ILS | reference | 3.4853 |
+| EUR | INR | reference | 106.459 |
+| EUR | IQD | reference | 1700.194 |
+| EUR | ISK | reference | 136.2 |
+| EUR | JMD | reference | 177.6253 |
+| EUR | JOD | reference | 0.7951 |
 
 </details>
 
 [Full table on the Banca d'Italia rates page](https://allratestoday.com/central-bank-rates-api/bdi/) · Source: [Official rates published by BDI, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bdi/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
