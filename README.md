@@ -37,7 +37,7 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/bdi').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
 
 ## 📈 Latest published table
 
@@ -47,70 +47,70 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-20 by Banca d'Italia — 150 rates, first 60 shown. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-21 by Banca d'Italia — 150 rates, first 60 shown. Updated 2026-10-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| EUR | AED | reference | 4.1187 |
-| EUR | AFN | reference | 72.819 |
-| EUR | ALL | reference | 90.86 |
-| EUR | AMD | reference | 405.78 |
-| EUR | AOA | reference | 1032.731 |
-| EUR | ARS | reference | 1709.4752 |
-| EUR | AUD | reference | 1.6056 |
-| EUR | AWG | reference | 2.0075 |
-| EUR | AZN | reference | 1.9066 |
+| EUR | AED | reference | 4.1257 |
+| EUR | AFN | reference | 72.9635 |
+| EUR | ALL | reference | 90.79 |
+| EUR | AMD | reference | 406.4 |
+| EUR | AOA | reference | 1035.095 |
+| EUR | ARS | reference | 1713.2285 |
+| EUR | AUD | reference | 1.5971 |
+| EUR | AWG | reference | 2.0109 |
+| EUR | AZN | reference | 1.9098 |
 | EUR | BAM | reference | 1.95583 |
-| EUR | BBD | reference | 2.243 |
-| EUR | BDT | reference | 138.6847 |
+| EUR | BBD | reference | 2.2468 |
+| EUR | BDT | reference | 138.9196 |
 | EUR | BHD | reference | 0.422 |
-| EUR | BIF | reference | 3377.588 |
-| EUR | BMD | reference | 1.1215 |
-| EUR | BND | reference | 1.4338 |
-| EUR | BOB | reference | 13.1216 |
-| EUR | BRL | reference | 5.6339 |
-| EUR | BSD | reference | 1.1215 |
-| EUR | BTN | reference | 106.459 |
-| EUR | BWP | reference | 15.5548 |
-| EUR | BZD | reference | 2.243 |
-| EUR | CAD | reference | 1.5758 |
-| EUR | CDF | reference | 2540.1975 |
-| EUR | CHF | reference | 0.9237 |
-| EUR | CLP | reference | 1100.33 |
-| EUR | CNY | reference | 7.4894 |
-| EUR | COP | reference | 3541.06 |
-| EUR | CRC | reference | 507.6358 |
-| EUR | CUP | reference | 26.916 |
+| EUR | BIF | reference | 3383.31 |
+| EUR | BMD | reference | 1.1234 |
+| EUR | BND | reference | 1.4348 |
+| EUR | BOB | reference | 13.1775 |
+| EUR | BRL | reference | 5.6432 |
+| EUR | BSD | reference | 1.1234 |
+| EUR | BTN | reference | 106.1265 |
+| EUR | BWP | reference | 15.6028 |
+| EUR | BZD | reference | 2.2468 |
+| EUR | CAD | reference | 1.5779 |
+| EUR | CDF | reference | 2548.3206 |
+| EUR | CHF | reference | 0.9256 |
+| EUR | CLP | reference | 1095.12 |
+| EUR | CNY | reference | 7.4999 |
+| EUR | COP | reference | 3566.19 |
+| EUR | CRC | reference | 509.8663 |
+| EUR | CUP | reference | 26.9616 |
 | EUR | CVE | reference | 110.265 |
-| EUR | CZK | reference | 24.329 |
-| EUR | DJF | reference | 199.314 |
+| EUR | CZK | reference | 24.262 |
+| EUR | DJF | reference | 199.652 |
 | EUR | DKK | reference | 7.4746 |
-| EUR | DOP | reference | 68.8899 |
-| EUR | DZD | reference | 150.8662 |
-| EUR | EGP | reference | 60.6421 |
-| EUR | ERN | reference | 17.2487 |
-| EUR | ETB | reference | 182.2421 |
-| EUR | FJD | reference | 2.5322 |
-| EUR | FKP | reference | 0.84028 |
-| EUR | GBP | reference | 0.84028 |
-| EUR | GEL | reference | 2.9121 |
-| EUR | GHS | reference | 13.0787 |
-| EUR | GIP | reference | 0.84028 |
-| EUR | GMD | reference | 81.08 |
-| EUR | GNF | reference | 9879.1833 |
-| EUR | GTQ | reference | 8.5706 |
-| EUR | GYD | reference | 234.6402 |
-| EUR | HKD | reference | 8.8023 |
-| EUR | HNL | reference | 30.1533 |
-| EUR | HTG | reference | 146.5627 |
-| EUR | HUF | reference | 364.68 |
-| EUR | IDR | reference | 20170.57 |
-| EUR | ILS | reference | 3.4853 |
-| EUR | INR | reference | 106.459 |
-| EUR | IQD | reference | 1700.194 |
+| EUR | DOP | reference | 68.8687 |
+| EUR | DZD | reference | 151.0837 |
+| EUR | EGP | reference | 61.1619 |
+| EUR | ERN | reference | 17.2779 |
+| EUR | ETB | reference | 182.388 |
+| EUR | FJD | reference | 2.5319 |
+| EUR | FKP | reference | 0.83825 |
+| EUR | GBP | reference | 0.83825 |
+| EUR | GEL | reference | 2.9167 |
+| EUR | GHS | reference | 13.0618 |
+| EUR | GIP | reference | 0.83825 |
+| EUR | GMD | reference | 81.06 |
+| EUR | GNF | reference | 9894.8273 |
+| EUR | GTQ | reference | 8.5845 |
+| EUR | GYD | reference | 235.0377 |
+| EUR | HKD | reference | 8.8155 |
+| EUR | HNL | reference | 30.2069 |
+| EUR | HTG | reference | 146.7847 |
+| EUR | HUF | reference | 365 |
+| EUR | IDR | reference | 20269.17 |
+| EUR | ILS | reference | 3.4726 |
+| EUR | INR | reference | 106.1265 |
+| EUR | IQD | reference | 1703.074 |
 | EUR | ISK | reference | 136.2 |
-| EUR | JMD | reference | 177.6253 |
-| EUR | JOD | reference | 0.7951 |
+| EUR | JMD | reference | 178.2113 |
+| EUR | JOD | reference | 0.7965 |
 
 </details>
 
